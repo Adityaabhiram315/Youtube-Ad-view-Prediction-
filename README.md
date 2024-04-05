@@ -1,4 +1,4 @@
-# Youtube-Ad-view-Prediction-
+# Youtube Ad-view Prediction
 
 ![image](https://github.com/Adityaabhiram315/Youtube-Ad-view-Prediction-/assets/95640107/e0c020d1-7c52-4fa8-aaec-164aa7437c58)
 
@@ -13,21 +13,26 @@ Exploratory Data Analysis
 Feature Engineering
 Model Development
 Prediction Generation
+<img width="1330" alt="image" src="https://github.com/Adityaabhiram315/Youtube-Ad-view-Prediction-/assets/95640107/0f9ac774-4a11-4f29-a8e0-44a848e3e11e">
 
 1. Introduction
 Run the below cell if the required libraries are not installed previously.
 
 2. Installation & Library Imports
 Install and import the necessary libraries, including "missingno" for visualizing missing values and "optuna" for hyperparameter tuning.
+<img width="683" alt="image" src="https://github.com/Adityaabhiram315/Youtube-Ad-view-Prediction-/assets/95640107/c784b19f-2aad-4d38-aa19-236dece402db">
 
 3. Data Loading
 Load the train and test datasets, i.e., "train.csv" and "test.csv," containing details of approximately 15,000 YouTube videos.
 
 4. Exploratory Data Analysis
 Explore the first 5 rows, data shape, information, data types, and null values in the train and test datasets.
+<img width="1070" alt="image" src="https://github.com/Adityaabhiram315/Youtube-Ad-view-Prediction-/assets/95640107/811e9c29-d45e-4f93-a2d2-f0506df683b7">
+<img width="929" alt="Screenshot 2024-04-05 at 11 49 49 AM" src="https://github.com/Adityaabhiram315/Youtube-Ad-view-Prediction-/assets/95640107/36c1344b-4459-43ea-a2fa-83efe2eb4ec7">
 
 5. Feature Engineering
 Perform feature engineering tasks such as handling missing data, feature scaling, and data transformation.
+<img width="1041" alt="Screenshot 2024-04-05 at 11 49 28 AM" src="https://github.com/Adityaabhiram315/Youtube-Ad-view-Prediction-/assets/95640107/169874db-3e97-454c-be2b-be26b45ddd7c">
 
 6. Model Development
 Utilize machine learning models such as XGBRegressor, LGBMRegressor, Ridge, Lasso, RandomForestRegressor, GradientBoostingRegressor, SVR, and StackingRegressor for predicting adview counts.
